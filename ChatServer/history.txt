@@ -1,0 +1,20 @@
+19.08.2021 23:44:35  connected
+19.08.2021 23:48:10  connected
+19.08.2021 23:49:29  disconnected
+19.08.2021 23:51:39 name1 connected
+19.08.2021 23:53:05 name1 disconnected
+19.08.2021 23:56:50 name1 connected
+19.08.2021 23:58:00 name1 disconnected
+20.08.2021 00:01:48 name1 connected
+20.08.2021 00:02:34 name1 disconnected
+20.08.2021 00:04:13 name1 connected
+20.08.2021 00:04:36 name1 disconnected
+20.08.2021 00:12:45 Name connected
+20.08.2021 00:13:04 Name: Message1
+20.08.2021 00:13:27 Name disconnected
+20.08.2021 00:13:45 Name connected
+20.08.2021 00:13:55 Name: Message
+20.08.2021 00:14:31 Name disconnected
+20.08.2021 00:14:50 Name connected
+20.08.2021 00:15:02 Name: Message
+20.08.2021 00:16:26 Name disconnected
