@@ -59,7 +59,8 @@ public class Server implements AutoCloseable {
 
     public void sendNickNamesToAll() {
         StringBuilder result = new StringBuilder();
-        nickNames.forEach((s) -> result.append("_NickName_ " + s + System.lineSeparator()));
+        result.append("_NickName_ ");
+        nickNames.forEach((s) -> result.append(s + " "));
         listenerClients.forEach(v -> v.sendMessage(result.toString()));
     }
 

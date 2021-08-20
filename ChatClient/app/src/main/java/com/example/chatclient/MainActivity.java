@@ -18,6 +18,7 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -107,8 +108,18 @@ public class MainActivity extends AppCompatActivity {
                         String[] message = nextLine.split(" ");
 
                         if (message[0].equals(nickNameKey)) {
-                            nickNames.add(message[1]);
+                            //nicknames
+                            nickNames.clear();
+
+                            for (int i = 1; i < message.length; i++) {
+                                nickNames.add(message[i]);
+                            }
+
+                            runOnUiThread(() -> {
+                                nickNamesAdapter.notifyDataSetChanged();
+                            });
                         } else {
+                            //messages
                             messages.add(nextLine);
                         }
 
