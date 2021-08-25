@@ -1,0 +1,47 @@
+25.08.2021 14:06:22 name10 connected
+25.08.2021 14:06:36 name11 connected
+25.08.2021 14:06:57 name10: mes10 1
+25.08.2021 14:07:07 name11: 
+25.08.2021 14:07:53 name10: mes10 2
+25.08.2021 14:08:07 name11: 
+25.08.2021 14:10:07 name10 connected
+25.08.2021 14:10:21 name11 connected
+25.08.2021 14:10:50 name10: mes10
+25.08.2021 14:11:38 name11: mes11
+25.08.2021 14:12:18 name10: mes10
+25.08.2021 14:12:24 name11: mes11
+25.08.2021 14:14:52 name10 connected
+25.08.2021 14:14:56 name11 connected
+25.08.2021 14:15:12 name10: 
+25.08.2021 14:15:47 name10 connected
+25.08.2021 14:15:53 name11 connected
+25.08.2021 14:17:47 name11 disconnected
+25.08.2021 14:18:03 name10 disconnected
+25.08.2021 14:23:58 name1 connected
+25.08.2021 14:24:29 name1: null
+25.08.2021 14:24:37 name1 disconnected
+25.08.2021 14:36:32 name1 connected
+25.08.2021 14:37:32 name1 disconnected
+25.08.2021 14:41:48 name1 connected
+25.08.2021 14:41:50 name1 disconnected
+25.08.2021 14:53:42 name1 connected
+25.08.2021 14:53:44 name1 disconnected
+25.08.2021 15:03:11 name1 connected
+25.08.2021 15:03:19 name1: 
+25.08.2021 15:03:25 name1: 
+25.08.2021 15:03:31 name1: mes1
+25.08.2021 15:04:09 name1 disconnected
+25.08.2021 15:04:31 name1 connected
+25.08.2021 15:04:41 name1 disconnected
+25.08.2021 15:09:25 name1 connected
+25.08.2021 15:09:35 name1: mes1
+25.08.2021 15:09:45 name1: mes2
+25.08.2021 15:09:48 name1 disconnected
+25.08.2021 15:12:44 name10 connected
+25.08.2021 15:12:55 name11 connected
+25.08.2021 15:13:03 name10: mes10
+25.08.2021 15:13:13 name11: mes11
+25.08.2021 15:13:20 name11: mes11
+25.08.2021 15:13:26 name10: mes10
+25.08.2021 15:13:34 name10 disconnected
+25.08.2021 15:13:34 name11 disconnected

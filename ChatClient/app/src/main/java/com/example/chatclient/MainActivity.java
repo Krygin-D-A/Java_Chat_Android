@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     private void connect(View view) {
         String nickName = etNickName.getText().toString();
 
-        if(!nickName.equals("")) {
+        if (!nickName.equals("")) {
             pbConnect.setVisibility(View.VISIBLE);
 
             new Thread(() -> {
@@ -132,22 +132,23 @@ public class MainActivity extends AppCompatActivity {
                 } catch (IOException e) {
                     e.printStackTrace();
                 } finally {
-                    pbConnect.setVisibility(View.INVISIBLE);
+                    runOnUiThread(() -> {
+                        pbConnect.setVisibility(View.INVISIBLE);
+                    });
                 }
             }).start();
         }
     }
 
     private void send(View view) {
-        new Thread(() -> {
-            SendMessage(etMessage.getText().toString());
-        }).start();
-
+        SendMessage(etMessage.getText().toString());
         etMessage.setText("");
     }
 
     private void SendMessage(String message) {
-        printWriter.println(message);
-        printWriter.flush();
+        new Thread(() -> {
+            printWriter.println(message);
+            printWriter.flush();
+        }).start();
     }
 }

@@ -57,10 +57,6 @@ public class ListenerClient implements Runnable {
         server.writeToHistory(server.getCurrentTime() + " " + nickname + " disconnected");
     }
 
-//    private void sendNickNames(String newNickName) {
-//        sendMessage(server.getAllNickNames(nickname));
-//    }
-
     private void sendHistoryMessages() {
         sendMessage(server.getAllHistory());
     }
